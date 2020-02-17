@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".otpPage"
+    android:background="#047bd5">
+
+    <ImageView
+        android:id="@+id/oima"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_above="@id/vlayout"
+        android:layout_marginBottom="3dp"
+        android:src="@drawable/oimage"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/oima"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="30dp"
+        android:text="@string/sit_back_and_relax_while_we_verify_your_mobile_number"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingStart="30dp"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_the_otp_below_in_case_if_we_fail_to_detect_the_sms_automatically"
+        android:textSize="15sp"
+        android:paddingLeft="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="italic"
+        android:layout_below="@id/t1"
+        android:paddingStart="20dp"
+        tools:ignore="RtlSymmetry" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/vlayout"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:focusable="true"
+        android:layout_centerInParent="true"
+        android:focusableInTouchMode="true"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/verifyEdit"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:inputType="number"
+            android:background="@drawable/editcustom"
+            android:padding="20dp"
+            android:hint="@string/enter_otp"
+            android:textColorHint="#047bd5"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/verifyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vlayout"
+        android:text="@string/verify"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_custom"
+        />
+
+
+</RelativeLayout>

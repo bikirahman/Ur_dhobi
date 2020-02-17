@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pickup"
+    android:orientation="vertical"
+    >
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:elevation="0dp"
+        android:id="@+id/appbar2delivery">
+        <ImageView
+            android:id="@+id/appbarimagedelivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/logo"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        android:layout_below="@id/appbar2delivery"
+        android:id="@+id/tablay2delivery"
+        app:tabTextColor="#000000"
+        app:tabIndicatorColor="#F0171E"
+        android:background="#ffffff"/>
+    <androidx.viewpager.widget.ViewPager
+        android:layout_below="@id/tablay2delivery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewpager2delivery"/>
+    <Button
+        android:id="@+id/deliverysubmitBut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#047bd5"
+        android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
+        android:text="Confirm"/>
+
+
+</RelativeLayout>

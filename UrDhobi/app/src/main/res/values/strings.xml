@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">UrDhobi</string>
+    <string name="screensplash">screenSplash</string>
+    <string name="disclaimer">Disclaimer: If you require any more information or have any questions about our site\'s disclaimer, please feel free to contact us by email at Urdhobi123@gamil.com</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="signupimage">signupImage</string>
+    <string name="get_otp">get_otp</string>
+    <string name="verify">Verify</string>
+    <string name="enter_otp">Enter otp</string>
+    <string name="sit_back_and_relax_while_we_verify_your_mobile_number">Hold on!  we are going to verify your mobile number</string>
+    <string name="enter_the_otp_below_in_case_if_we_fail_to_detect_the_sms_automatically">(Enter the OTP below in case if we fail to detect the SMS automatically)</string>
+    <string name="your_submission_is_received_and_we_will_contact_you_soon">Your submission is received and we will contact you soon.</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="back_to_home"><![CDATA[<--Back to home]]></string>
+</resources>

@@ -1,0 +1,162 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.urdhobi"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:6:5-67
+11-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:7:5-79
+12-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.READ_SMS" />
+13-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:8:5-67
+13-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+14-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:9:5-70
+14-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:9:22-67
+15
+16    <application
+16-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:11:5-70:19
+17        android:allowBackup="true"
+17-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:12:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] C:\Users\bikir\.gradle\caches\transforms-2\files-2.1\478b79604eaaf934858ce3739dce1708\core-1.1.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:13:9-43
+21        android:label="@string/app_name"
+21-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:14:9-41
+22        android:networkSecurityConfig="@xml/network_security_config"
+22-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:15:9-69
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:16:9-54
+24        android:supportsRtl="true"
+24-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:17:9-35
+25        android:testOnly="false"
+25-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:18:9-33
+26        android:theme="@style/AppTheme" >
+26-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:19:9-40
+27        <activity android:name="com.example.urdhobi.confirm" >
+27-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:21:9-23:20
+27-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:21:19-42
+28        </activity>
+29        <activity android:name="com.example.urdhobi.Thankyou" >
+29-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:24:9-26:20
+29-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:24:19-43
+30        </activity>
+31        <activity android:name="com.example.urdhobi.items" >
+31-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:27:9-29:20
+31-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:27:19-40
+32        </activity>
+33        <activity android:name="com.example.urdhobi.delivery" />
+33-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:30:9-46
+33-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:30:19-43
+34        <activity android:name="com.example.urdhobi.pickup" >
+34-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:31:9-33:20
+34-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:31:19-41
+35        </activity>
+36        <activity android:name="com.example.urdhobi.time" >
+36-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:34:9-36:20
+36-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:34:19-39
+37        </activity>
+38        <activity
+38-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:37:9-39:57
+39            android:name="com.example.urdhobi.address"
+39-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:38:13-36
+40            android:windowSoftInputMode="stateHidden" />
+40-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:39:13-54
+41        <activity
+41-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:40:9-48:20
+42            android:name="com.example.urdhobi.welcome"
+42-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:41:13-36
+43            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+43-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:42:13-69
+44            <intent-filter>
+44-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:43:13-47:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:44:17-69
+45-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:44:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:46:17-77
+47-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:46:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity android:name="com.example.urdhobi.Homepage" />
+50-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:49:9-51:15
+50-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:50:13-37
+51        <activity
+51-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:52:9-54:72
+52            android:name="com.example.urdhobi.otpPage"
+52-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:53:13-36
+53            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+53-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:54:13-69
+54        <activity
+54-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:55:9-57:72
+55            android:name="com.example.urdhobi.signup"
+55-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:56:13-35
+56            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+56-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:57:13-69
+57
+58        <receiver
+58-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:59:9-69:20
+59            android:name="com.example.urdhobi.MyReceiver"
+59-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:60:13-39
+60            android:exported="true"
+60-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:61:13-36
+61            android:permission="android.permission.BROADCAST_SMS" >
+61-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:62:13-66
+62            <intent-filter>
+62-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:63:13-68:29
+63                <action android:name="android.intent.action.BOOT_COMPLETED" />
+63-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:64:17-79
+63-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:64:25-76
+64                <action android:name="android.intent.action.INPUT_METHOD_CHANGED" />
+64-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:65:17-85
+64-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:65:25-82
+65                <action android:name="android.intent.action.PHONE_STATE" />
+65-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:66:17-76
+65-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:66:25-73
+66                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+66-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:67:17-82
+66-->D:\Android Projects\UrDhobi\app\src\main\AndroidManifest.xml:67:25-79
+67            </intent-filter>
+68        </receiver>
+69
+70        <activity
+70-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\bikir\.gradle\caches\transforms-2\files-2.1\30a7766a3557d29c05fc60c4f03b62b3\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+71            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+71-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\bikir\.gradle\caches\transforms-2\files-2.1\30a7766a3557d29c05fc60c4f03b62b3\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+72            android:exported="false"
+72-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\bikir\.gradle\caches\transforms-2\files-2.1\30a7766a3557d29c05fc60c4f03b62b3\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+73-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\bikir\.gradle\caches\transforms-2\files-2.1\30a7766a3557d29c05fc60c4f03b62b3\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+74
+75        <provider
+75-->[com.google.firebase:firebase-common:16.0.3] C:\Users\bikir\.gradle\caches\transforms-2\files-2.1\39dd0b9d882d9296b0cdeacfaa398e6f\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+76            android:name="com.google.firebase.provider.FirebaseInitProvider"
+76-->[com.google.firebase:firebase-common:16.0.3] C:\Users\bikir\.gradle\caches\transforms-2\files-2.1\39dd0b9d882d9296b0cdeacfaa398e6f\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+77            android:authorities="com.example.urdhobi.firebaseinitprovider"
+77-->[com.google.firebase:firebase-common:16.0.3] C:\Users\bikir\.gradle\caches\transforms-2\files-2.1\39dd0b9d882d9296b0cdeacfaa398e6f\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+78            android:exported="false"
+78-->[com.google.firebase:firebase-common:16.0.3] C:\Users\bikir\.gradle\caches\transforms-2\files-2.1\39dd0b9d882d9296b0cdeacfaa398e6f\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+79            android:initOrder="100" />
+79-->[com.google.firebase:firebase-common:16.0.3] C:\Users\bikir\.gradle\caches\transforms-2\files-2.1\39dd0b9d882d9296b0cdeacfaa398e6f\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+80
+81        <meta-data
+81-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\bikir\.gradle\caches\transforms-2\files-2.1\8c62e59ce357509019dde03ab476a675\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+82            android:name="com.google.android.gms.version"
+82-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\bikir\.gradle\caches\transforms-2\files-2.1\8c62e59ce357509019dde03ab476a675\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+83            android:value="@integer/google_play_services_version" />
+83-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\bikir\.gradle\caches\transforms-2\files-2.1\8c62e59ce357509019dde03ab476a675\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+84    </application>
+85
+86</manifest>

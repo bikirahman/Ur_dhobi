@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "686064182548",
+    "firebase_url": "https://urdhobinew.firebaseio.com",
+    "project_id": "urdhobinew",
+    "storage_bucket": "urdhobinew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686064182548:android:9134bdd805f8bd5d88ce01",
+        "android_client_info": {
+          "package_name": "com.example.urdhobi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686064182548-58fkfaokjgabn2upcc8dftu7sh7urbc4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.urdhobi",
+            "certificate_hash": "84133ccaf37ae68b2bf6d9513f95098af35e3c49"
+          }
+        },
+        {
+          "client_id": "686064182548-obia5fhej1jiq6rftf39ncdlqhjcq9rt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9ySo9S_BHln_G7YzLYH4zWjTXlu8LwI0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686064182548-obia5fhej1jiq6rftf39ncdlqhjcq9rt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
